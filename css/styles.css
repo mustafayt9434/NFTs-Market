@@ -440,3 +440,118 @@ ul {
 .footer_item_list_item {
   margin-bottom: 1rem;
 }
+
+/* register page */
+.register_container {
+  width: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+.register_img > img {
+  width: 100%;
+  height: 100vh;
+}
+.footer_no_margin_top {
+  margin-top: -5px;
+}
+.register_form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_group {
+  background-color: var(--color-text);
+  padding: 0.7rem 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10rem;
+}
+.form_group:not(:first-child) {
+  margin-top: 2rem;
+}
+.form_group_icon {
+  margin-right: 1rem;
+}
+.form_input {
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+}
+.form_title {
+  color: var(--color-text);
+}
+.form_p {
+  color: var(--color-text);
+  margin: 1.6rem 0rem 3rem 0rem;
+}
+.form_group_btn {
+  padding: 1.4rem 2rem;
+  text-align: center;
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.form_btn {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+/* wallet page */
+.wallet_img > img {
+  width: 100%;
+  height: 100vh;
+}
+.wallet_btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-secondary);
+  padding: 1.6rem 3rem;
+  border-radius: 1.5rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+}
+.wallet_btn_icon {
+  margin-right: 2rem;
+}
+.wallet_btn_text {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+/* artist page */
+.artist_header {
+  background-image: url(../images/artist-bg.png);
+}
+.artist_container {
+  color: var(--color-text);
+}
+.mini_header {
+  width: 100%;
+  height: 50vh;
+}
+.artist_content {
+  margin: 4rem 0rem;
+  display: flex;
+}
+.artist_name {
+  margin-right: 5rem;
+}
+.artist_details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.artist_data:not(:first-child) {
+  margin-left: 3rem;
+}
+.artist_bio {
+  margin-bottom: 3rem;
+}
+.artist_nfts {
+  margin-bottom: 6rem;
+}
