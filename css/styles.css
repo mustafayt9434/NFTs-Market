@@ -555,3 +555,19 @@ ul {
 .artist_nfts {
   margin-bottom: 6rem;
 }
+
+/* marketplace page */
+.market_header {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  color: var(--color-text);
+  background-color: #363535;
+}
+.market_header_h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
